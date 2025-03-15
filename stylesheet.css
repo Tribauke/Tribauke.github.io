@@ -1,21 +1,43 @@
+/* stylesheet.css */
 body {
-    background-color: #212121;
-    color: white;
-    font-family: sans-serif;
     margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('YOUR_GITHUB_RAW_BACKGROUND_URL');
+    background-size: cover;
+    background-position: center;
+}
+
+.landing-page {
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
     padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #333; /* Default text color */
 }
 
-img[alt="Logo Expat Compass"] {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+.content {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Style the text under the logo */
-body > p {
-    margin-top: 110px; /* Adjust as needed based on logo size */
-    margin-left: 10px; /* Align with the left of the logo */
-    text-align: left; /* Ensure left alignment */
+.logo {
+    max-width: 200px; /* Adjust logo size */
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em; /* Adjust title size */
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.1em; /* Adjust body text size */
+    line-height: 1.6;
 }
