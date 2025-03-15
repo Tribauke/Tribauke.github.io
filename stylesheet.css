@@ -14,8 +14,8 @@ img[alt="Logo Expat Compass"] {
 }
 
 /* Style the text under the logo */
-body < p {
-    margin-top: 650px; /* Adjust as needed based on logo size */
+body > p {
+    margin-top: 210px; /* Adjust as needed based on logo size */
     margin-left: 10px; /* Align with the left of the logo */
     text-align: left; /* Ensure left alignment */
 }
