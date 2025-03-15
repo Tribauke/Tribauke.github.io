@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url('YOUR_GITHUB_RAW_BACKGROUND_URL');
+    background-image: url(background.webp);
     background-size: cover;
     background-position: center;
 }
